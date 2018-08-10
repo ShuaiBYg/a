@@ -1,7 +1,9 @@
 # 快速创建元素
 你可以使用以下方法快速创建元素：
 
-window.$$ = function(type,obj,position,before){
+<script>
+	window.$$ = function(type,obj,position,before){
+
 		var element;
 		var other = {
 			'frag': 'createDocumentFragment',
@@ -34,3 +36,4 @@ window.$$ = function(type,obj,position,before){
 		}
 		return element;
 	}
+</script>
